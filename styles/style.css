@@ -13,6 +13,9 @@
 header {
   background: #fff8f3;
   padding: 50px 0 0 0;
+  background-image: url(../images/header_bg.png), url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, center left;
 }
 
 #nav-title {
@@ -54,7 +57,6 @@ nav a {
 /* --------------------- Banner Styles ------------------------------ */
 .banner {
   display: flex;
-  margin: 0 225px;
   justify-content: space-between;
   align-items: center;
 }
@@ -72,13 +74,22 @@ nav a {
   margin-bottom: 20px;
 }
 
+.banner-text {
+  margin: 0 225px;
+}
+
 .banner-text > p {
   color: #757575;
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 30px;
+  max-width: 600px;
 }
 
 .btn-contact {
   margin-left: 30px;
+}
+
+.banner img {
+  margin-right: 40px;
 }
