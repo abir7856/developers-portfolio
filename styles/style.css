@@ -2,10 +2,17 @@
   font-family: "Open Sans", sans-serif;
   font-family: "Poppins", sans-serif;
   font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .color-primary {
   color: #fd6e0a;
+}
+
+header {
+  background: #fff8f3;
+  padding: 50px 0 0 0;
 }
 
 #nav-title {
@@ -15,14 +22,18 @@
 
 nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 225px 50px 225px;
 }
 
 nav > ul {
   display: flex;
   list-style: none;
+  align-items: center;
 }
 nav li {
-  margin-left: 20px;
+  margin-left: 50px;
   color: #474747;
 }
 
@@ -38,4 +49,36 @@ nav a {
   background: #fd6e0a;
   border: 0;
   color: white;
+}
+
+/* --------------------- Banner Styles ------------------------------ */
+.banner {
+  display: flex;
+  margin: 0 225px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#banner-greetings {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+#banner-title {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.banner-text > p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.btn-contact {
+  margin-left: 30px;
 }
